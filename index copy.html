@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap mau</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./asset/base.css">
+    <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="./asset/gird_layout.css">
+    <link rel="stylesheet" href="./asset/responsive.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.min.css ">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet"></head>
+<body>
+    <div class="web">
+        <!-- Header -->
+        <header class="header">
+            <div class="grid wide">
+                <!-- header__navbar -->
+                <nav class="header__navbar hidden__mobile__tablet">
+                    <!-- header__navbar-list-left -->
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar--qrcode header__navbar-item--separete">
+                            Vào cửa hàng trên ứng dụng Tri
+                            <!-- header_qrcode -->
+                            <div class="header_qrcode">
+                                <img class="header_qrcode--img" src="./img/qr_code.png" alt="QR Code">
+                                <div class="header_qrcode--store">
+                                    <img class="header_qrcode--imgstore" src="./img/CH_Play.png" alt="CH_Play">
+                                    <img class="header_qrcode--imgstore" src="./img/App_Store.png" alt="App_Store">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            Kết nối
+                            <a href="" class="header__navbar__icon--link">
+                                <i class="header__navbar--icon fab fa-facebook"></i>
+                                <i class="header__navbar--icon fab fa-instagram-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- header__navbar-list--right -->
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__notifi--hasNoti">
+                            <a href="" class="header__navbar-item--link">
+                                <i class="header__navbar--icon fas fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <!-- Notificatiion panel -->
+                            <div class="header__notifi">
+                                <header class="header__notifi--header">
+                                    <h3>Thông báo mới nhất</h3>
+                                </header>
+                                <ul class="header__notifi--list">
+                                    <a href="https://www.facebook.com/" class="header__notifi--link">
+                                        <li class="header__notifi--item">
+                                            <img class="header__notifi--img" src="https://img2.thuthuatphanmem.vn/uploads/2019/02/22/hinh-nen-gai-xinh-2k-cho-pc_121750528.jpg" alt="Hinh_1" >
+                                            <div class="header__notifi--info">
+                                                <p class="header__notifi--name">Chương trình khuyến mãi giữa tháng 10</p>
+                                                <p class="header__notifi--desciption">Chương trình khuyến mãi áp dụng cho thành viên mới</p>
+                                            </div>
+                                        </li>
+                                    </a>
+                                    <a href="https://www.facebook.com/" class="header__notifi--link">
+                                        <li class="header__notifi--item">
+                                            <img class="header__notifi--img" src="https://img2.thuthuatphanmem.vn/uploads/2019/02/22/hinh-nen-gai-xinh-2k-cho-pc_121750528.jpg" alt="Hinh_1" >
+                                            <div class="header__notifi--info">
+                                                <p class="header__notifi--name">Chương trình khuyến mãi giữa tháng 10</p>
+                                                <p class="header__notifi--desciption">Chương trình khuyến mãi áp dụng cho thành viên mới</p>
+                                            </div>
+                                        </li>
+                                    </a>
+                                    <a href="https://www.facebook.com/" class="header__notifi--link">
+                                        <li class="header__notifi--item">
+                                            <img class="header__notifi--img" src="https://img2.thuthuatphanmem.vn/uploads/2019/02/22/hinh-nen-gai-xinh-2k-cho-pc_121750528.jpg" alt="Hinh_1" >
+                                            <div class="header__notifi--info">
+                                                <p class="header__notifi--name">Chương trình khuyến mãi giữa tháng 10</p>
+                                                <p class="header__notifi--desciption">Chương trình khuyến mãi áp dụng cho thành viên mới</p>
+                                            </div>
+                                        </li>
+                                    </a>
+                                    <a href="https://www.facebook.com/" class="header__notifi--link">
+                                        <li class="header__notifi--item">
+                                            <img class="header__notifi--img" src="https://img2.thuthuatphanmem.vn/uploads/2019/02/22/hinh-nen-gai-xinh-2k-cho-pc_121750528.jpg" alt="Hinh_1" >
+                                            <div class="header__notifi--info">
+                                                <p class="header__notifi--name">Chương trình khuyến mãi giữa tháng 10</p>
+                                                <p class="header__notifi--desciption">Chương trình khuyến mãi áp dụng cho thành viên mới</p>
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                                <footer class="header__notifi--footer">
+                                    <a href="" class="header__notifi__footer--link">
+                                        <h3>Xem tất cả</h3>
+                                    </a>
+                                    
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item--link">
+                                <i class="header__navbar--icon fas fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separete">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    </ul>
+                </nav>
+                <!-- header__search -->
+                <div class="header__search">
+                    <label for="header__search--mobile--check" class="header__search--mobile">
+                        <i class="header__search--mobile--icon fas fa-search"></i>
+                    </label>
+                    <input type="checkbox" hidden id="header__search--mobile--check" class="header__search--mobile--checkbox">
+                    <div class="header__search--logo hidden__tablet">
+                        <img class="header__search--img" alt="Logo" src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/33103030_880656928785509_3767771059827245056_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=y7jjEAS6yW4AX_XBcEW&_nc_ht=scontent.fsgn2-1.fna&oh=1292017daff283ed4e8defaaaf6e908a&oe=5FACE1D6" >
+                    </div>
+                    <div class="header__search--text">
+                        <div class="header__search--wap">
+                            <input type="text" class="header__search--item1" placeholder="Tiềm kiếm của bạn">
+                            <div class="header__search--history">
+                                <h3 class="header__search--history--header">Lịch sử của bạn</h3>
+                                <ul class="header__search--history--list">
+                                    <li class="header__search--history--item">
+                                        <a href="" class="">Điện thoại thông minh</a>
+                                    </li>
+                                    <li class="header__search--history--item">
+                                        <a href="" class="">Máy tính xách tay</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search--item2">
+                            <span class="header__search--select">
+                                Tìm trong Shop
+                            </span>
+                            <i style="color:#c0bfbf" class="header__search--icon fas fa-chevron-down"></i>
+                            <ul class="header__search--item2--group">
+                                <li class="header__search--item">
+                                    <span class="header__search--item-text">Cửa hàng</span>
+                                    <i class="header__search--icon--check fas fa-check"></i>
+                                </li>
+                                <li class="header__search--item">
+                                    <span class="header__search--item-text">Trong ví</span>
+                                    <i class="header__search--icon--check fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search--item3">
+                            <i class="header__search--icon fas fa-search"></i>
+                        </button> 
+                    </div>
+                    <div class="header__search--cart--wap">
+                        <i style="color: #ffffff" class="header__search--cart fas fa-shopping-cart"></i>
+                        <div class="header__search--cart--panel">
+                            <img src="./img/no-cart.png" alt="no cart">
+                            <h3>Chưa có sản phẩm</h3>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <ul class="header__sort--bar show__mobile--tablet">
+                <li class="header__sort--bar--item">
+                    <a href="" class="header__sort--bar--link">Liên quan</a>
+                </li>
+                <li class="header__sort--bar--item">
+                    <a href="" class="header__sort--bar--link">Bán chạy</a>
+                </li>
+                <li class="header__sort--bar--item">
+                    <a href="" class="header__sort--bar--link">Mới nhất</a>
+                </li>
+                <li class="header__sort--bar--item">
+                    <a href="" class="header__sort--bar--link">Giá</a>
+                </li>
+            </ul>
+        </header>
+        <div class="main">
+            <div class="grid wide">
+                <div class="row sm-gutter app__main">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__list--header">
+                                <i class="fas fa-list"></i>
+                                <span>DANH MỤC</span>
+                            </h3>
+                            <ul class="category__list">
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa mắt</a>
+                                </li><li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa mũi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa miệng</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                                <li class="category__list--item">
+                                    <a href="" class="category__list--item--link">Chỉnh sửa môi</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <div class="gird__row--columns10--filter hidden__mobile__tablet">
+                            <span class="gird__row--filter--text">Sắp xếp theo</span>
+                            <button class="btn ">Phổ biến</button>
+                            <button class="btn btn_register">Mới nhất</button>
+                            <button class="btn ">Bán chạy</button>
+                            <div class="gird__row--filter--price">
+                                <span>Giá</span>
+                                <i class="fas fa-chevron-down"></i>
+                                <ul class="filter__price--list">
+                                    <li class="filter__price--item">
+                                        <a href="" class="filter__price--item--link">Giá tăng từ thấp lên cao</a>
+                                    </li>
+                                    <li class="filter__price--item">
+                                        <a href="" class="filter__price--item--link">Giá giảm từ cao xuống thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <nav class="category__mobile">
+                            <ul class="category__mobile--list">
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị bảo vệ</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị chống nắng</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị chống lão hóa</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị dưỡng da</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị phục hồi</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị tẩy rửa</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị tẩy rửa</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị tẩy rửa</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị tẩy rửa</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị tẩy rửa</a>
+                                </li>
+                                <li class="category__mobile--item">
+                                    <a href="" class="category__mobile--link">Thiết bị tẩy rửa</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="gird__row--product">
+                            <div class="row sm-gutter">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="columns--product--item">
+                                        <div class="product__item--image" style="background-repeat: no-repeat; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTb_p_vXRppK41fZqPJAcc4lyY0WF5iBBl90w&usqp=CAU);"></div>
+                                        <h3 class="product__item--text">Nhận quà tặng và các deal độc quyền ngay bây giờ.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination--list pagination--list--margin">
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link pagination--item--active">1</a>
+                            </li>
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link">2</a>
+                            </li>
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link">3</a>
+                            </li>
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link">4</a>
+                            </li>
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link">5</a>
+                            </li>
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link">...</a>
+                            </li>
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link">10</a>
+                            </li>
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link">11</a>
+                            </li>
+                            <li class="pagination--item">
+                                <a href="" class="pagination--link">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="columns--footer--item">
+                            <header class="colums__footer--header">CHĂM SÓC</header>
+                            <ul class="colums__footer--list">
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">TickID Mail</a>
+                                </li>
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">Hướng dẫn mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="columns--footer--item">
+                            <header class="colums__footer--header">VỀ TICKID</header>
+                            <ul class="colums__footer--list">
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">Giới thiệu về TickID Việt Nam</a>
+                                </li>
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">Tuyển dụng</a>
+                                </li>
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">Điều khoản TickID</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="columns--footer--item">
+                            <header class="colums__footer--header">VỀ TICKID</header>
+                            <ul class="colums__footer--list">
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">Giới thiệu về TickID Việt Nam</a>
+                                </li>
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">Tuyển dụng</a>
+                                </li>
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">Điều khoản TickID</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="columns--footer--item">
+                            <header class="colums__footer--header">THEO DÕI</header>
+                            <ul class="colums__footer--list">
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">
+                                        <i class="fab fa-facebook"></i>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">
+                                        <i class="fab fa-instagram-square"></i>
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li class="colums__footer--item">
+                                    <a href="" class="colums__footer--item--link">
+                                        <i class="fab fa-linkedin"></i>
+                                        Linkedln
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-6 c-10">
+                        <div class="columns--footer--item">
+                            <header class="colums__footer--header">VÀO CỬA HÀNG TRÊN ỨNG DỤNG TICKID</header>
+                            <div class="colums__footer--image">
+                                <img src="./img/qr_code.png" alt="QR CODE">
+                                <div class="colums__footer--store">
+                                    <a href="" class="colums__footer--store--link">
+                                        <img src="./img/CH_Play.png" alt="CH Play">
+                                    </a>
+                                    <a href="" class="colums__footer--store--link">
+                                        <img src="./img/App_Store.png" alt="App Store">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <!-- Modal layout -->
+    <!-- <div class="modal">
+        <div class="modal__over">
+
+        </div>
+        <div class="modal__body">  -->
+            <!-- Form Layout Register -->
+            <!-- <div class="aut__form">
+                <div class="aut__form--white">
+                    <div class="aut__form--header">
+                        <h3 class="aut__form--left">Đăng ký</h3>
+                        <span class="aut__form--right">Đăng nhập</span>
+                    </div>
+                    <div class="aut__form--main">
+                        <div class="aut__form--input">
+                            <input type="text" class="aut__form--input--item" placeholder="Nhập số điện thoại của bạn">
+                        </div>
+                        <div class="aut__form--input">
+                            <input type="password" class="aut__form--input--item" placeholder="Nhập số mật khẩu">
+                        </div>
+                        <div class="aut__form--input">
+                            <input type="password" class="aut__form--input--item" placeholder="Nhập lại số mật khẩu">
+                        </div>
+                    </div>
+                    <div class="aut__form--content">
+                        <p class="aut__form--policy">
+                            Bằng việc đăng ký bạn đồng với Tri về
+                            <a href="" class="ut__form--policy--link">Điều khoản dịch vụ</a> &
+                            <a href="" class="ut__form--policy--link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+                    
+                    <div class="aut__form--controls">
+                        <button class="btn btn_back">TRỞ VỀ</button>
+                        <button class="btn btn_register">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="aut__form--socials">
+                    <a href="" class="aut_form--social--group aut_form--social--fb">
+                        <i class="aut_form--social--icon fab fa-facebook-square"></i>
+                        <p class="text">Đăng nhập với Facebook</p>
+                    </a>
+                    <a href="" class="aut_form--social--group aut_form--social--gg">
+                        <i class="aut_form--social--icon fab fa-google-plus-g"></i>
+                        <p class="text">Đăng nhập với Google</p>
+                    </a>
+                </div>
+            </div>   -->
+            <!-- Form Layout Register -->
+            <!-- <div class="aut__form">
+                
+                <div class="aut__form--white">
+                    
+                    <div class="aut__form--header">
+                        <h3 class="aut__form--left">Đăng Nhập</h3>
+                        <span class="aut__form--right">Đăng ký</span>
+                    </div>
+                    
+                    <div class="aut__form--main">
+                        <div class="aut__form--input">
+                            <input type="text" class="aut__form--input--item" placeholder="Nhập số điện thoại của bạn">
+                        </div>
+                        <div class="aut__form--input">
+                            <input type="password" class="aut__form--input--item" placeholder="Nhập số mật khẩu">
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="aut__form--content">
+                        <div class="aut__form--content--text">
+                            <a href="" class="aut__form--item">Quên mật khẩu</a>
+                            <a href="" class="aut__form--item">Trợ giúp</a>
+                        </div>
+                    </div>
+                    
+                    <div class="aut__form--controls">
+                        <button class="btn btn_back">TRỞ VỀ</button>
+                        <button class="btn btn_register">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+                
+                <div class="aut__form--socials">
+                    <a href="" class="aut_form--social--group aut_form--social--fb">
+                        <i class="aut_form--social--icon fab fa-facebook-square"></i>
+                        <p class="text">Đăng nhập với Facebook</p>
+                    </a>
+                    <a href="" class="aut_form--social--group aut_form--social--gg">
+                        <i class="aut_form--social--icon fab fa-google-plus-g"></i>
+                        <p class="text">Đăng nhập với Google</p>
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    
+</body>
+</html>
